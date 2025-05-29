@@ -1,2 +1,7 @@
 Pipfile
 Pipfile.lock
+.env
+*.pyc
+*.cache
+static/
+media/
