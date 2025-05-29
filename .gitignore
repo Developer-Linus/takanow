@@ -2,6 +2,7 @@ Pipfile
 Pipfile.lock
 .env
 *.pyc
+**/__pycache__/
 *.cache
 static/
 media/
