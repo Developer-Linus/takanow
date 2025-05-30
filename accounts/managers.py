@@ -2,7 +2,7 @@ from django.contrib.auth.models import BaseUserManager
 from django.utils.translation import gettext_lazy as _
 
 
-class CustomUser(BaseUserManager):
+class CustomUserManager(BaseUserManager):
     def create_user(self, email, password=None, **extra_fields):
         if not email:
             raise ValueError(_('Email must be set.'))
